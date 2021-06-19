@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1623986634
+timestamp 1624136344
 << metal1 >>
 rect 256482 -91252 256488 -91192
 rect 256548 -91252 256760 -91192
@@ -1743,52 +1743,52 @@ rect 296598 -185812 296622 -185060
 rect 297374 -185812 297398 -185060
 rect 296598 -185836 297398 -185812
 rect 250904 -185864 251752 -185840
-use peak_detector  peak_detector_0 peak_detector
-timestamp 1623971255
+use peak_detector  peak_detector_0 ~/ee272b/ee272b_mixed_signal_mmwave_accelerator/layouts/peak_detector
+timestamp 1624134973
 transform 1 0 173892 0 1 -185010
 box -16574 -888 76950 30794
-use sample_and_hold  sample_and_hold_0 sample_and_hold
-timestamp 1623971255
+use sample_and_hold  sample_and_hold_0 ~/ee272b/ee272b_mixed_signal_mmwave_accelerator/layouts/sample_and_hold
+timestamp 1624134973
 transform 1 0 253730 0 1 -149196
 box -1756 -2178 42110 29480
 use sample_and_hold  sample_and_hold_1
-timestamp 1623971255
+timestamp 1624134973
 transform 1 0 253730 0 1 -183720
 box -1756 -2178 42110 29480
-use biquad_gm_c_filter  biquad_gm_c_filter_0 biquad_gm_c_filter
-timestamp 1623971255
+use biquad_gm_c_filter  biquad_gm_c_filter_0 ~/ee272b/ee272b_mixed_signal_mmwave_accelerator/layouts/biquad_gm_c_filter
+timestamp 1624127230
 transform 1 0 187212 0 1 -113396
 box -1552 -6022 23682 5240
-use comparator  comparator_0 continuous_time_comparator
-timestamp 1623971255
+use comparator  comparator_0 ~/ee272b/ee272b_mixed_signal_mmwave_accelerator/layouts/continuous_time_comparator
+timestamp 1624127230
 transform 1 0 229012 0 1 -114708
 box -3400 -3600 3400 3200
-use diff_to_se_converter  diff_to_se_converter_0 diff_to_se_converter
-timestamp 1623971255
+use diff_to_se_converter  diff_to_se_converter_0 ~/ee272b/ee272b_mixed_signal_mmwave_accelerator/layouts/diff_to_se_converter
+timestamp 1624134973
 transform -1 0 194530 0 1 -150652
 box -13509 -718 35912 30940
-use input_amplifier  input_amplifier_0 input_amplifier
-timestamp 1623971255
+use input_amplifier  input_amplifier_0 ~/ee272b/ee272b_mixed_signal_mmwave_accelerator/layouts/input_amplifier
+timestamp 1624136344
 transform -1 0 248960 0 1 -106680
 box -13477 -718 90192 28340
-use low_freq_pll  low_freq_pll_0 low_freq_pll
-timestamp 1623986634
+use low_freq_pll  low_freq_pll_0 ~/ee272b/ee272b_mixed_signal_mmwave_accelerator/layouts/low_freq_pll
+timestamp 1624127230
 transform 1 0 211340 0 1 -129086
 box 7294 -22262 38743 17578
-use pulse_generator  pulse_generator_0 pulse_generator
-timestamp 1623986634
+use pulse_generator  pulse_generator_0 ~/ee272b/ee272b_mixed_signal_mmwave_accelerator/layouts/pulse_generator
+timestamp 1624127230
 transform -1 0 339666 0 1 -185362
 box -72 -526 4688 670
-use bias_current_distribution  bias_current_distribution_0 bias_current_distribution
-timestamp 1623971255
+use bias_current_distribution  bias_current_distribution_0 ~/ee272b/ee272b_mixed_signal_mmwave_accelerator/layouts/bias_current_distribution
+timestamp 1624127230
 transform 1 0 268974 0 1 -98308
 box -440 -10900 12700 3000
-use dac_8bit  dac_8bit_0 dac_8bit
-timestamp 1623972994
+use dac_8bit  dac_8bit_0 ~/ee272b/ee272b_mixed_signal_mmwave_accelerator/layouts/dac_8bit
+timestamp 1624134973
 transform 1 0 326281 0 1 -59040
 box -29235 -75848 58525 12
 use dac_8bit  dac_8bit_1
-timestamp 1623972994
+timestamp 1624134973
 transform 1 0 326281 0 1 -110050
 box -29235 -75848 58525 12
 << labels >>

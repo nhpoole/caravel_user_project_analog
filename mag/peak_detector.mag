@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1623971255
+timestamp 1624134973
 << nwell >>
 rect 36584 12390 38738 14006
 << nsubdiff >>
@@ -700,22 +700,22 @@ rect -3232 -306 -2372 -6
 rect -16568 -410 -2372 -306
 rect -1682 -410 -1528 284
 rect -16568 -458 -1528 -410
-use sky130_fd_pr__pfet_01v8_RC2RSP  sky130_fd_pr__pfet_01v8_RC2RSP_0
-timestamp 1623971255
-transform 1 0 37701 0 1 12898
-box -839 -200 839 200
-use se_fold_casc_wide_swing_ota  se_fold_casc_wide_swing_ota_0 se_fold_casc_wide_swing_ota
-timestamp 1623971255
+use se_fold_casc_wide_swing_ota  se_fold_casc_wide_swing_ota_0 ~/ee272b/ee272b_mixed_signal_mmwave_accelerator/layouts/se_fold_casc_wide_swing_ota
+timestamp 1624132412
 transform 1 0 10950 0 1 26370
 box -15168 -27258 25000 4400
 use se_fold_casc_wide_swing_ota  se_fold_casc_wide_swing_ota_1
-timestamp 1623971255
+timestamp 1624132412
 transform 1 0 51950 0 1 26370
 box -15168 -27258 25000 4400
 use sky130_fd_pr__nfet_01v8_HFLVLW  sky130_fd_pr__nfet_01v8_HFLVLW_0
-timestamp 1623971255
+timestamp 1624127230
 transform 1 0 -1013 0 1 137
 box -211 -279 211 275
+use sky130_fd_pr__pfet_01v8_RC2RSP  sky130_fd_pr__pfet_01v8_RC2RSP_0 ~/ee272b/ee272b_mixed_signal_mmwave_accelerator/layouts/continuous_time_comparator
+timestamp 1624127230
+transform 1 0 37701 0 1 12898
+box -839 -200 839 200
 << labels >>
 flabel metal2 38146 12624 38158 12636 1 FreeSans 480 0 0 0 vpeakh
 flabel metal1 37310 12672 37326 12682 1 FreeSans 480 0 0 0 verr

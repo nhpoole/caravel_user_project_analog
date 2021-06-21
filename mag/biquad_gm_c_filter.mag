@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1623971255
+timestamp 1624298412
 << nwell >>
 rect 9590 3318 13304 5174
 rect 9590 -5978 13120 -4122
@@ -233,21 +233,21 @@ rect -1528 -5246 -728 4392
 rect -1528 -5998 -1504 -5246
 rect -752 -5998 -728 -5246
 rect -1528 -6022 -728 -5998
-use gm_c_stage  gm_c_stage_2 gm_c_stage
-timestamp 1623971255
-transform 1 0 12188 0 1 2736
-box -400 -3100 11100 2480
-use gm_c_stage  gm_c_stage_3
-timestamp 1623971255
-transform 1 0 12188 0 -1 -3540
+use gm_c_stage  gm_c_stage_0 ~/ee272b/ee272b_mixed_signal_mmwave_accelerator/layouts/gm_c_stage
+timestamp 1624298412
+transform 1 0 388 0 1 2736
 box -400 -3100 11100 2480
 use gm_c_stage  gm_c_stage_1
-timestamp 1623971255
+timestamp 1624298412
 transform 1 0 388 0 -1 -3540
 box -400 -3100 11100 2480
-use gm_c_stage  gm_c_stage_0
-timestamp 1623971255
-transform 1 0 388 0 1 2736
+use gm_c_stage  gm_c_stage_3
+timestamp 1624298412
+transform 1 0 12188 0 -1 -3540
+box -400 -3100 11100 2480
+use gm_c_stage  gm_c_stage_2
+timestamp 1624298412
+transform 1 0 12188 0 1 2736
 box -400 -3100 11100 2480
 << labels >>
 flabel metal2 4746 1978 4762 1992 1 FreeSans 480 0 0 0 vip

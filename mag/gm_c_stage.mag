@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1623971255
+timestamp 1624298412
 << nwell >>
 rect -358 582 11058 2438
 << pwell >>
@@ -930,29 +930,29 @@ rect -400 -2916 -216 -2616
 rect 384 -2916 10316 -2616
 rect 10916 -2916 11100 -2616
 rect -400 -3100 11100 -2916
-use sky130_fd_pr__nfet_01v8_YXNJ6N  sky130_fd_pr__nfet_01v8_YXNJ6N_1
-timestamp 1623971255
-transform 1 0 8635 0 1 -378
+use sky130_fd_pr__nfet_01v8_YXNJ6N  sky130_fd_pr__nfet_01v8_YXNJ6N_0
+timestamp 1624298412
+transform 1 0 2043 0 1 -378
 box -1319 -288 1319 288
-use sky130_fd_pr__nfet_01v8_3YN2WN  sky130_fd_pr__nfet_01v8_3YN2WN_0
-timestamp 1623971255
-transform 1 0 5353 0 1 -1386
-box -5177 -188 5177 188
-use sky130_fd_pr__nfet_01v8_3YN2WN  sky130_fd_pr__nfet_01v8_3YN2WN_1
-timestamp 1623971255
-transform 1 0 5353 0 1 -1926
-box -5177 -188 5177 188
-use sky130_fd_pr__pfet_01v8_HVERXA  sky130_fd_pr__pfet_01v8_HVERXA_0
-timestamp 1623971255
-transform 1 0 5343 0 1 1190
-box -1871 -200 1871 200
 use sky130_fd_pr__nfet_01v8_lvt_YXNJ6N  sky130_fd_pr__nfet_01v8_lvt_YXNJ6N_0
-timestamp 1623971255
+timestamp 1624298412
 transform 1 0 5339 0 1 -378
 box -1319 -288 1319 288
-use sky130_fd_pr__nfet_01v8_YXNJ6N  sky130_fd_pr__nfet_01v8_YXNJ6N_0
-timestamp 1623971255
-transform 1 0 2043 0 1 -378
+use sky130_fd_pr__pfet_01v8_HVERXA  sky130_fd_pr__pfet_01v8_HVERXA_0
+timestamp 1624298412
+transform 1 0 5343 0 1 1190
+box -1871 -200 1871 200
+use sky130_fd_pr__nfet_01v8_3YN2WN  sky130_fd_pr__nfet_01v8_3YN2WN_1
+timestamp 1624298412
+transform 1 0 5353 0 1 -1926
+box -5177 -188 5177 188
+use sky130_fd_pr__nfet_01v8_3YN2WN  sky130_fd_pr__nfet_01v8_3YN2WN_0
+timestamp 1624298412
+transform 1 0 5353 0 1 -1386
+box -5177 -188 5177 188
+use sky130_fd_pr__nfet_01v8_YXNJ6N  sky130_fd_pr__nfet_01v8_YXNJ6N_1
+timestamp 1624298412
+transform 1 0 8635 0 1 -378
 box -1319 -288 1319 288
 << labels >>
 flabel metal1 1044 -1164 1062 -1152 1 FreeSans 480 0 0 0 vtail_diff

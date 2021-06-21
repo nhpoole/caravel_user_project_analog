@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1624134973
+timestamp 1624300568
 << nwell >>
 rect 10260 -57542 12494 -56702
 << pwell >>
@@ -294,10 +294,33 @@ rect 4908 -74926 4968 -74866
 rect 53114 -40017 53174 -40011
 rect 52006 -40077 53114 -40017
 rect 53114 -40083 53174 -40077
+rect -14318 -40774 -14218 -40765
+rect -7399 -40852 -7309 -40848
+rect -15855 -41124 -15765 -41120
+rect -14318 -41124 -14218 -40874
+rect -7404 -40857 -5210 -40852
+rect -7404 -40947 -7399 -40857
+rect -7309 -40947 -5210 -40857
+rect -7404 -40952 -5210 -40947
+rect -7399 -40956 -7309 -40952
+rect -7973 -41094 -7883 -41090
+rect -15860 -41129 -14218 -41124
+rect -15860 -41219 -15855 -41129
+rect -15765 -41219 -14218 -41129
+rect -13177 -41194 -13168 -41094
+rect -13068 -41099 -7878 -41094
+rect -13068 -41189 -7973 -41099
+rect -7883 -41189 -7878 -41099
+rect -13068 -41194 -7878 -41189
+rect -5310 -41146 -5210 -40952
+rect -7973 -41198 -7883 -41194
+rect -15860 -41224 -14218 -41219
+rect -15855 -41228 -15765 -41224
 rect 49182 -41181 49191 -41091
 rect 49281 -41181 49290 -41091
 rect 51909 -41166 51918 -41106
 rect 51978 -41166 53320 -41106
+rect -5310 -41255 -5210 -41246
 rect 30126 -41300 30132 -41240
 rect 30192 -41300 30198 -41240
 rect 30132 -41822 30192 -41300
@@ -311,8 +334,57 @@ rect 57194 -42044 57200 -41984
 rect 58200 -41992 58452 -41932
 rect 57134 -42132 57194 -42044
 rect 57134 -42192 58450 -42132
+rect -14632 -42469 -14532 -42464
+rect -14636 -42559 -14627 -42469
+rect -14537 -42559 -14528 -42469
+rect -6432 -42537 -6332 -42532
+rect -14632 -47424 -14532 -42559
+rect -6436 -42627 -6427 -42537
+rect -6337 -42627 -6328 -42537
 rect 51994 -42542 53314 -42482
 rect 53374 -42542 53383 -42482
+rect -11643 -42836 -11553 -42832
+rect -9531 -42836 -9441 -42832
+rect -13746 -42841 -11548 -42836
+rect -13746 -42931 -11643 -42841
+rect -11553 -42931 -11548 -42841
+rect -13746 -42936 -11548 -42931
+rect -9536 -42841 -7342 -42836
+rect -9536 -42931 -9531 -42841
+rect -9441 -42931 -7342 -42841
+rect -9536 -42936 -7342 -42931
+rect -13746 -43120 -13646 -42936
+rect -11643 -42940 -11553 -42936
+rect -9531 -42940 -9441 -42936
+rect -13746 -43229 -13646 -43220
+rect -7442 -43112 -7342 -42936
+rect -7442 -43221 -7342 -43212
+rect -10917 -44832 -10827 -44828
+rect -10922 -44837 -10064 -44832
+rect -10922 -44927 -10917 -44837
+rect -10827 -44927 -10064 -44837
+rect -10922 -44932 -10064 -44927
+rect -10917 -44936 -10827 -44932
+rect -10164 -45124 -10064 -44932
+rect -10164 -45233 -10064 -45224
+rect -7444 -46758 -7344 -46749
+rect -13741 -46836 -13651 -46832
+rect -13746 -46841 -11544 -46836
+rect -13746 -46931 -13741 -46841
+rect -13651 -46931 -11544 -46841
+rect -13746 -46936 -11544 -46931
+rect -13741 -46940 -13651 -46936
+rect -11644 -47134 -11544 -46936
+rect -9537 -47104 -9447 -47100
+rect -7444 -47104 -7344 -46858
+rect -9542 -47109 -7344 -47104
+rect -9542 -47199 -9537 -47109
+rect -9447 -47199 -7344 -47109
+rect -9542 -47204 -7344 -47199
+rect -9537 -47208 -9447 -47204
+rect -11644 -47243 -11544 -47234
+rect -14632 -47533 -14532 -47524
+rect -6432 -47530 -6332 -42627
 rect 26986 -42942 27046 -42933
 rect 26986 -43098 27046 -43002
 rect 26986 -45104 27046 -45098
@@ -325,9 +397,34 @@ rect 27780 -46860 27840 -46854
 rect 27046 -46920 27780 -46860
 rect 26986 -46926 27046 -46920
 rect 27780 -46926 27840 -46920
+rect -6432 -47639 -6332 -47630
 rect 26986 -48374 27046 -48368
 rect 27046 -48434 27900 -48374
 rect 26986 -48440 27046 -48434
+rect -5312 -48778 -5212 -48769
+rect -15855 -48852 -15765 -48848
+rect -12999 -48850 -12909 -48846
+rect -8060 -48850 -7960 -48841
+rect -15860 -48857 -13656 -48852
+rect -15860 -48947 -15855 -48857
+rect -15765 -48947 -13656 -48857
+rect -15860 -48952 -13656 -48947
+rect -13004 -48855 -8060 -48850
+rect -13004 -48945 -12999 -48855
+rect -12909 -48945 -8060 -48855
+rect -13004 -48950 -8060 -48945
+rect -15855 -48956 -15765 -48952
+rect -13756 -49148 -13656 -48952
+rect -12999 -48954 -12909 -48950
+rect -8060 -48959 -7960 -48950
+rect -7431 -49046 -7341 -49042
+rect -5312 -49046 -5212 -48878
+rect -7436 -49051 -5212 -49046
+rect -7436 -49141 -7431 -49051
+rect -7341 -49141 -5212 -49051
+rect -7436 -49146 -5212 -49141
+rect -7431 -49150 -7341 -49146
+rect -13756 -49257 -13656 -49248
 rect 26982 -49616 27042 -49610
 rect 27042 -49676 28044 -49616
 rect 26982 -49682 27042 -49676
@@ -403,11 +500,11 @@ rect 10276 -58528 12130 -58514
 rect 13016 -59714 13076 -58346
 rect 13007 -59774 13016 -59714
 rect 13076 -59774 13085 -59714
-rect -25067 -65195 -24977 -65186
-rect -26400 -65274 -25067 -65214
+rect -25195 -65195 -25105 -65186
+rect -26400 -65274 -25195 -65214
 rect -21031 -65197 -20941 -65188
 rect -22446 -65274 -21031 -65214
-rect -25067 -65294 -24977 -65285
+rect -25195 -65294 -25105 -65285
 rect -17109 -65197 -17019 -65188
 rect -18454 -65274 -17109 -65214
 rect -21031 -65296 -20941 -65287
@@ -585,11 +682,37 @@ rect -3092 -74934 -3032 -74928
 rect 908 -74934 968 -74928
 rect 4908 -74932 4968 -74926
 << via2 >>
+rect -14318 -40874 -14218 -40774
+rect -7399 -40947 -7309 -40857
+rect -15855 -41219 -15765 -41129
+rect -13168 -41194 -13068 -41094
+rect -7973 -41189 -7883 -41099
+rect -5310 -41246 -5210 -41146
 rect 49191 -41181 49281 -41091
 rect 51918 -41166 51978 -41106
 rect 52380 -42022 52440 -41962
+rect -14627 -42559 -14537 -42469
+rect -6427 -42627 -6337 -42537
 rect 53314 -42542 53374 -42482
+rect -11643 -42931 -11553 -42841
+rect -9531 -42931 -9441 -42841
+rect -13746 -43220 -13646 -43120
+rect -7442 -43212 -7342 -43112
+rect -10917 -44927 -10827 -44837
+rect -10164 -45224 -10064 -45124
+rect -13741 -46931 -13651 -46841
+rect -7444 -46858 -7344 -46758
+rect -11644 -47234 -11544 -47134
+rect -9537 -47199 -9447 -47109
+rect -14632 -47524 -14532 -47424
 rect 26986 -43002 27046 -42942
+rect -6432 -47630 -6332 -47530
+rect -15855 -48947 -15765 -48857
+rect -12999 -48945 -12909 -48855
+rect -8060 -48950 -7960 -48850
+rect -5312 -48878 -5212 -48778
+rect -7431 -49141 -7341 -49051
+rect -13756 -49248 -13656 -49148
 rect 14775 -52077 14865 -51987
 rect 14767 -53043 14857 -52953
 rect 14769 -54037 14859 -53947
@@ -602,7 +725,7 @@ rect 10654 -57695 10712 -57635
 rect 12526 -58243 12586 -58183
 rect 10294 -58514 12110 -58408
 rect 13016 -59774 13076 -59714
-rect -25067 -65285 -24977 -65195
+rect -25195 -65285 -25105 -65195
 rect -21031 -65287 -20941 -65197
 rect -17109 -65287 -17019 -65197
 rect -16087 -65287 -15997 -65197
@@ -802,47 +925,134 @@ rect -27129 -50054 -23408 -49954
 rect -22154 -49980 -22054 -48080
 rect -20078 -49980 -19978 -48080
 rect -17986 -49922 -17886 -40028
-rect -13736 -40952 -13636 -40574
-rect -15860 -41052 -13636 -40952
-rect -7404 -40952 -7304 -40006
+rect -14318 -40769 -14218 -40574
+rect -13736 -40648 -13636 -40574
+rect -14323 -40774 -14213 -40769
+rect -14323 -40874 -14318 -40774
+rect -14218 -40874 -14213 -40774
+rect -14323 -40879 -14213 -40874
+rect -7404 -40857 -7304 -40006
 rect -5340 -39968 -5240 -38036
 rect -3180 -39968 -3080 -38036
 rect -5340 -40068 -3080 -39968
-rect -15860 -48952 -15760 -41052
-rect -13170 -41054 -7878 -40954
-rect -7404 -41052 -5206 -40952
-rect -13170 -41398 -13070 -41054
-rect -7978 -41466 -7878 -41054
+rect -7404 -40947 -7399 -40857
+rect -7309 -40947 -7304 -40857
+rect -7404 -40952 -7304 -40947
+rect -13180 -41094 -13048 -41088
+rect -15860 -41129 -15760 -41124
+rect -15860 -41219 -15855 -41129
+rect -15765 -41219 -15760 -41129
+rect -15860 -48857 -15760 -41219
+rect -13180 -41194 -13168 -41094
+rect -13068 -41194 -13048 -41094
+rect -13180 -41472 -13048 -41194
+rect -7978 -41099 -7878 -41094
+rect -7978 -41189 -7973 -41099
+rect -7883 -41189 -7878 -41099
+rect -7978 -41466 -7878 -41189
+rect -5315 -41146 -5205 -41141
+rect -5315 -41246 -5310 -41146
+rect -5210 -41246 -5205 -41146
+rect -5315 -41251 -5205 -41246
+rect -5310 -41484 -5210 -41251
+rect -5310 -41570 -5206 -41484
 rect -10842 -42024 -9436 -41924
-rect -14752 -42564 -14060 -42464
-rect -14752 -47428 -14652 -42564
-rect -11648 -42936 -11548 -42180
-rect -13746 -43036 -11548 -42936
-rect -9536 -42936 -9436 -42024
-rect -6634 -42632 -6232 -42532
-rect -9536 -43036 -7344 -42936
-rect -13746 -46936 -13646 -43036
-rect -10922 -44932 -10822 -44592
-rect -10922 -45032 -10064 -44932
-rect -10164 -45352 -10064 -45032
-rect -7444 -46928 -7344 -43036
-rect -13746 -47036 -11548 -46936
-rect -14752 -47528 -14274 -47428
-rect -11648 -47914 -11548 -47036
-rect -9542 -47028 -7344 -46928
-rect -9542 -47914 -9442 -47028
-rect -6332 -47524 -6232 -42632
-rect -6982 -47624 -6232 -47524
+rect -14632 -42469 -14060 -42464
+rect -14632 -42559 -14627 -42469
+rect -14537 -42559 -14060 -42469
+rect -14632 -42564 -14060 -42559
+rect -11648 -42841 -11548 -42180
+rect -11648 -42931 -11643 -42841
+rect -11553 -42931 -11548 -42841
+rect -11648 -42936 -11548 -42931
+rect -9536 -42841 -9436 -42024
+rect -6634 -42537 -6332 -42532
+rect -6634 -42627 -6427 -42537
+rect -6337 -42627 -6332 -42537
+rect -6634 -42632 -6332 -42627
+rect -9536 -42931 -9531 -42841
+rect -9441 -42931 -9436 -42841
+rect -9536 -42936 -9436 -42931
+rect -7447 -43112 -7337 -43107
+rect -13751 -43120 -13641 -43115
+rect -13751 -43220 -13746 -43120
+rect -13646 -43220 -13641 -43120
+rect -7447 -43212 -7442 -43112
+rect -7342 -43212 -7337 -43112
+rect -7447 -43217 -7337 -43212
+rect -13751 -43225 -13641 -43220
+rect -13746 -46841 -13646 -43225
+rect -7442 -43426 -7342 -43217
+rect -7444 -43498 -7342 -43426
+rect -10922 -44837 -10822 -44592
+rect -10922 -44927 -10917 -44837
+rect -10827 -44927 -10822 -44837
+rect -10922 -44932 -10822 -44927
+rect -10169 -45124 -10059 -45119
+rect -10169 -45224 -10164 -45124
+rect -10064 -45224 -10059 -45124
+rect -10169 -45229 -10059 -45224
+rect -10164 -45450 -10064 -45229
+rect -7444 -46753 -7344 -43498
+rect -13746 -46931 -13741 -46841
+rect -13651 -46931 -13646 -46841
+rect -7449 -46758 -7339 -46753
+rect -7449 -46858 -7444 -46758
+rect -7344 -46858 -7339 -46758
+rect -7449 -46863 -7339 -46858
+rect -13746 -46936 -13646 -46931
+rect -9542 -47109 -9442 -47104
+rect -11649 -47134 -11539 -47129
+rect -11649 -47234 -11644 -47134
+rect -11544 -47234 -11539 -47134
+rect -11649 -47239 -11539 -47234
+rect -9542 -47199 -9537 -47109
+rect -9447 -47199 -9442 -47109
+rect -14654 -47424 -14296 -47406
+rect -14654 -47524 -14632 -47424
+rect -14532 -47428 -14296 -47424
+rect -14532 -47524 -14274 -47428
+rect -14654 -47528 -14274 -47524
+rect -14654 -47554 -14296 -47528
+rect -11644 -47550 -11544 -47239
+rect -11648 -47554 -11544 -47550
+rect -11648 -47914 -11548 -47554
+rect -9542 -47914 -9442 -47199
+rect -6652 -47524 -6320 -47516
+rect -6982 -47530 -6320 -47524
+rect -6982 -47624 -6432 -47530
+rect -6652 -47630 -6432 -47624
+rect -6332 -47630 -6320 -47530
+rect -6652 -47648 -6320 -47630
 rect -11648 -48014 -9442 -47914
-rect -13004 -48950 -12904 -48584
+rect -15860 -48947 -15855 -48857
+rect -15765 -48947 -15760 -48857
+rect -15860 -48952 -15760 -48947
+rect -13004 -48855 -12904 -48584
 rect -9542 -48662 -9442 -48014
-rect -8052 -48950 -7952 -48568
-rect -5306 -48946 -5206 -41052
-rect -15860 -49052 -13654 -48952
-rect -13004 -49050 -7952 -48950
-rect -7436 -49046 -5206 -48946
-rect -13754 -49664 -13654 -49052
-rect -7436 -49906 -7336 -49046
+rect -5306 -48498 -5206 -41570
+rect -8052 -48658 -7952 -48568
+rect -13004 -48945 -12999 -48855
+rect -12909 -48945 -12904 -48855
+rect -13004 -48950 -12904 -48945
+rect -8074 -48850 -7938 -48658
+rect -5312 -48773 -5212 -48580
+rect -8074 -48950 -8060 -48850
+rect -7960 -48950 -7938 -48850
+rect -5317 -48778 -5207 -48773
+rect -5317 -48878 -5312 -48778
+rect -5212 -48878 -5207 -48778
+rect -5317 -48883 -5207 -48878
+rect -8074 -48966 -7938 -48950
+rect -7436 -49051 -7336 -49046
+rect -7436 -49141 -7431 -49051
+rect -7341 -49141 -7336 -49051
+rect -13761 -49148 -13651 -49143
+rect -13761 -49248 -13756 -49148
+rect -13656 -49248 -13651 -49148
+rect -13761 -49253 -13651 -49248
+rect -13756 -49572 -13656 -49253
+rect -7436 -49906 -7336 -49141
 rect -26392 -51954 -26292 -50054
 rect -24286 -51954 -24186 -50054
 rect -22917 -50080 -19196 -49980
@@ -1055,7 +1265,6 @@ rect 10276 -58514 10294 -58408
 rect 12110 -58514 12130 -58408
 rect 10276 -58528 12130 -58514
 rect -26244 -60046 5328 -59946
-rect -25270 -63286 -25170 -60046
 rect -24286 -60066 -24186 -60046
 rect -22166 -60114 -22066 -60046
 rect -20060 -60806 -19960 -60046
@@ -1070,6 +1279,7 @@ rect -3212 -60806 -3112 -60046
 rect -1106 -60806 -1006 -60046
 rect 1000 -60806 1100 -60046
 rect 3106 -60806 3206 -60046
+rect -25590 -62040 -24772 -61936
 rect -9938 -63001 -9838 -63000
 rect -14752 -63009 -14652 -63008
 rect -16848 -63011 -16748 -63010
@@ -1082,13 +1292,13 @@ rect -14757 -63107 -14751 -63009
 rect -14653 -63107 -14647 -63009
 rect -10592 -63011 -10492 -63010
 rect -12628 -63019 -12528 -63018
-rect -25270 -63386 -24972 -63286
+rect -25200 -63278 -25100 -63272
 rect -18964 -63326 -18864 -63113
 rect -16848 -63310 -16748 -63109
-rect -25072 -65195 -24972 -63386
-rect -25072 -65285 -25067 -65195
-rect -24977 -65285 -24972 -65195
-rect -25072 -65290 -24972 -65285
+rect -25200 -65195 -25100 -63378
+rect -25200 -65285 -25195 -65195
+rect -25105 -65285 -25100 -65195
+rect -25200 -65290 -25100 -65285
 rect -21036 -63426 -18864 -63326
 rect -17114 -63410 -16748 -63310
 rect -21036 -65197 -20936 -63426
@@ -1293,6 +1503,7 @@ rect 10294 -58514 12110 -58408
 rect -18963 -63113 -18865 -63015
 rect -16847 -63109 -16749 -63011
 rect -14751 -63107 -14653 -63009
+rect -25200 -63378 -25100 -63278
 rect -12627 -63117 -12529 -63019
 rect -10591 -63109 -10493 -63011
 rect -9937 -63099 -9839 -63001
@@ -1532,13 +1743,13 @@ rect -22136 -44942 -22036 -43048
 rect -20030 -44942 -19930 -43048
 rect -17924 -44942 -17824 -43048
 rect -15818 -44942 -15718 -43048
-rect -13712 -44942 -13612 -43048
+rect -13712 -44942 -13612 -43410
 rect -11606 -44942 -11506 -43048
 rect -9500 -44942 -9400 -43048
 rect -28470 -45042 -9400 -44942
 rect -8684 -44864 -8584 -44560
 rect -8684 -44964 -8182 -44864
-rect -7394 -44948 -7294 -43048
+rect -7394 -44948 -7294 -43426
 rect -5288 -44948 -5188 -43048
 rect -3182 -44948 -3082 -43048
 rect -1076 -44948 -976 -43048
@@ -1642,26 +1853,32 @@ rect -28470 -60038 -27540 -59938
 rect -28470 -60942 -28370 -60038
 rect -27640 -60942 -27540 -60038
 rect -26348 -60942 -26248 -59034
-rect -24242 -60942 -24142 -59034
-rect -22136 -60942 -22036 -59034
-rect -20030 -60942 -19930 -59034
-rect -28470 -61042 -19930 -60942
+rect -28470 -61042 -26248 -60942
+rect -25530 -60938 -25434 -60554
+rect -25530 -61034 -25104 -60938
 rect -28470 -61936 -28370 -61042
 rect -27640 -61936 -27540 -61042
 rect -26348 -61936 -26248 -61042
+rect -28470 -62036 -25436 -61936
+rect -25200 -63050 -25104 -61034
+rect -24242 -60942 -24142 -59034
+rect -22136 -60942 -22036 -59034
+rect -20030 -60942 -19930 -59034
+rect -24242 -61042 -19930 -60942
 rect -24242 -61930 -24142 -61042
 rect -22136 -61908 -22036 -61042
 rect -20030 -61908 -19930 -61042
 rect -24242 -61936 -23350 -61930
 rect -22136 -61936 -21244 -61930
 rect -20030 -61936 -19138 -61930
-rect -28470 -62030 -19138 -61936
-rect -28470 -62036 -19570 -62030
+rect -24884 -62030 -19138 -61936
+rect -24884 -62036 -19570 -62030
 rect -18964 -63015 -18864 -55026
 rect -17924 -61908 -17824 -53062
 rect -17114 -52968 -17014 -52416
 rect -17114 -53068 -16748 -52968
 rect -17924 -62030 -17032 -61930
+rect -25200 -63277 -25100 -63050
 rect -18964 -63113 -18963 -63015
 rect -18865 -63113 -18864 -63015
 rect -16848 -63011 -16748 -53068
@@ -1832,6 +2049,10 @@ rect -8282 -63023 -7828 -63022
 rect -8282 -63121 -7927 -63023
 rect -7829 -63121 -7828 -63023
 rect -8282 -63122 -7828 -63121
+rect -25201 -63278 -25099 -63277
+rect -25201 -63378 -25200 -63278
+rect -25100 -63378 -25099 -63278
+rect -25201 -63379 -25099 -63378
 rect -27764 -65036 7040 -64348
 rect 7728 -65036 8854 -64348
 rect -26889 -69716 -26223 -69222
@@ -1926,1395 +2147,1394 @@ rect 7040 -75818 7064 -75178
 rect 7704 -75818 7728 -75178
 rect 7040 -75842 7728 -75818
 use amux_2to1  amux_2to1_17 ~/ee272b/ee272b_mixed_signal_mmwave_accelerator/layouts/amux_2to1
-timestamp 1624127230
+timestamp 1624300568
 transform 1 0 -28122 0 -1 -72108
 box -114 -1800 2840 3740
 use amux_2to1  amux_2to1_16
-timestamp 1624127230
+timestamp 1624300568
 transform 1 0 -24122 0 -1 -72108
 box -114 -1800 2840 3740
 use amux_2to1  amux_2to1_15
-timestamp 1624127230
+timestamp 1624300568
 transform 1 0 -20122 0 -1 -72108
 box -114 -1800 2840 3740
 use amux_2to1  amux_2to1_14
-timestamp 1624127230
+timestamp 1624300568
 transform 1 0 -16122 0 -1 -72108
 box -114 -1800 2840 3740
 use amux_2to1  amux_2to1_13
-timestamp 1624127230
+timestamp 1624300568
 transform 1 0 -12122 0 -1 -72108
 box -114 -1800 2840 3740
 use amux_2to1  amux_2to1_12
-timestamp 1624127230
+timestamp 1624300568
 transform 1 0 -8122 0 -1 -72108
 box -114 -1800 2840 3740
 use amux_2to1  amux_2to1_11
-timestamp 1624127230
+timestamp 1624300568
 transform 1 0 -4122 0 -1 -72108
 box -114 -1800 2840 3740
 use amux_2to1  amux_2to1_10
-timestamp 1624127230
+timestamp 1624300568
 transform 1 0 -122 0 -1 -72108
 box -114 -1800 2840 3740
 use amux_2to1  amux_2to1_9
-timestamp 1624127230
+timestamp 1624300568
 transform 1 0 3878 0 -1 -72108
 box -114 -1800 2840 3740
 use amux_2to1  amux_2to1_0
-timestamp 1624127230
+timestamp 1624300568
 transform 1 0 -28122 0 1 -68088
 box -114 -1800 2840 3740
 use amux_2to1  amux_2to1_1
-timestamp 1624127230
+timestamp 1624300568
 transform 1 0 -24122 0 1 -68088
 box -114 -1800 2840 3740
 use amux_2to1  amux_2to1_2
-timestamp 1624127230
+timestamp 1624300568
 transform 1 0 -20122 0 1 -68088
 box -114 -1800 2840 3740
 use amux_2to1  amux_2to1_3
-timestamp 1624127230
+timestamp 1624300568
 transform 1 0 -16122 0 1 -68088
 box -114 -1800 2840 3740
 use amux_2to1  amux_2to1_4
-timestamp 1624127230
+timestamp 1624300568
 transform 1 0 -12122 0 1 -68088
 box -114 -1800 2840 3740
 use amux_2to1  amux_2to1_5
-timestamp 1624127230
+timestamp 1624300568
 transform 1 0 -8122 0 1 -68088
 box -114 -1800 2840 3740
 use amux_2to1  amux_2to1_6
-timestamp 1624127230
+timestamp 1624300568
 transform 1 0 -4122 0 1 -68088
 box -114 -1800 2840 3740
 use amux_2to1  amux_2to1_7
-timestamp 1624127230
+timestamp 1624300568
 transform 1 0 -122 0 1 -68088
 box -114 -1800 2840 3740
 use amux_2to1  amux_2to1_8
-timestamp 1624127230
+timestamp 1624300568
 transform 1 0 3878 0 1 -68088
 box -114 -1800 2840 3740
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_17
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -28385 0 1 -62006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_16
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -28385 0 1 -60006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_18
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -26279 0 1 -62006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_19
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -26279 0 1 -60006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_36
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -24173 0 1 -62006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_37
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -24173 0 1 -60006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_54
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -22067 0 1 -62006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_55
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -22067 0 1 -60006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_73
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -19961 0 1 -60006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_72
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -19961 0 1 -62006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_91
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -17855 0 1 -60006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_90
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -17855 0 1 -62006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_109
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -15749 0 1 -60006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_108
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -15749 0 1 -62006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_127
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -13643 0 1 -60006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_126
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -13643 0 1 -62006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_145
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -11537 0 1 -60006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_144
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -11537 0 1 -62006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_163
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -9431 0 1 -60006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_162
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -9431 0 1 -62006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_181
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -7325 0 1 -60006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_180
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -7325 0 1 -62006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_199
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -5219 0 1 -60006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_198
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -5219 0 1 -62006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_217
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -3113 0 1 -60006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_216
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -3113 0 1 -62006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_235
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -1007 0 1 -60006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_234
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -1007 0 1 -62006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_253
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 1099 0 1 -60006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_252
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 1099 0 1 -62006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_271
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 3205 0 1 -60006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_270
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 3205 0 1 -62006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_289
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 5311 0 1 -60006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_288
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 5311 0 1 -62006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_307
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 7417 0 1 -60006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_306
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 7417 0 1 -62006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_15
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -28385 0 1 -58006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_20
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -26279 0 1 -58006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_14
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -28385 0 1 -56006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_21
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -26279 0 1 -56006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_13
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -28385 0 1 -54006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_22
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -26279 0 1 -54006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_38
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -24173 0 1 -58006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_39
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -24173 0 1 -56006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_40
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -24173 0 1 -54006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_56
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -22067 0 1 -58006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_57
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -22067 0 1 -56006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_58
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -22067 0 1 -54006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_74
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -19961 0 1 -58006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_75
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -19961 0 1 -56006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_76
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -19961 0 1 -54006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_92
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -17855 0 1 -58006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_93
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -17855 0 1 -56006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_94
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -17855 0 1 -54006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_110
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -15749 0 1 -58006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_128
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -13643 0 1 -58006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_111
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -15749 0 1 -56006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_129
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -13643 0 1 -56006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_112
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -15749 0 1 -54006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_130
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -13643 0 1 -54006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_146
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -11537 0 1 -58006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_147
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -11537 0 1 -56006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_148
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -11537 0 1 -54006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_164
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -9431 0 1 -58006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_165
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -9431 0 1 -56006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_166
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -9431 0 1 -54006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_182
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -7325 0 1 -58006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_183
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -7325 0 1 -56006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_184
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -7325 0 1 -54006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_200
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -5219 0 1 -58006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_201
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -5219 0 1 -56006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_202
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -5219 0 1 -54006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_218
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -3113 0 1 -58006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_219
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -3113 0 1 -56006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_220
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -3113 0 1 -54006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_236
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -1007 0 1 -58006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_254
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 1099 0 1 -58006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_237
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -1007 0 1 -56006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_255
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 1099 0 1 -56006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_238
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -1007 0 1 -54006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_256
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 1099 0 1 -54006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_272
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 3205 0 1 -58006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_273
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 3205 0 1 -56006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_274
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 3205 0 1 -54006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_290
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 5311 0 1 -58006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_291
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 5311 0 1 -56006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_292
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 5311 0 1 -54006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_308
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 7417 0 1 -58006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_309
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 7417 0 1 -56006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_310
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 7417 0 1 -54006
 box -850 -800 849 800
-use sky130_fd_pr__pfet_01v8_hvt_SCHXZ7  sky130_fd_pr__pfet_01v8_hvt_SCHXZ7_0
-timestamp 1624127230
-transform 1 0 11201 0 1 -57122
-box -941 -419 941 419
 use sky130_fd_pr__nfet_01v8_N6QVV6  sky130_fd_pr__nfet_01v8_N6QVV6_0
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 11201 0 1 -57946
 box -941 -310 941 310
+use sky130_fd_pr__pfet_01v8_hvt_SCHXZ7  sky130_fd_pr__pfet_01v8_hvt_SCHXZ7_0
+timestamp 1624298412
+transform 1 0 11201 0 1 -57122
+box -941 -419 941 419
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_12
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -28385 0 1 -52006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_23
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -26279 0 1 -52006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_41
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -24173 0 1 -52006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_59
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -22067 0 1 -52006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_77
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -19961 0 1 -52006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_95
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -17855 0 1 -52006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_113
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -15749 0 1 -52006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_131
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -13643 0 1 -52006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_149
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -11537 0 1 -52006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_167
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -9431 0 1 -52006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_185
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -7325 0 1 -52006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_203
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -5219 0 1 -52006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_221
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -3113 0 1 -52006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_239
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -1007 0 1 -52006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_257
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 1099 0 1 -52006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_275
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 3205 0 1 -52006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_293
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 5311 0 1 -52006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_311
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 7417 0 1 -52006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_11
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -28385 0 1 -50006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_24
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -26279 0 1 -50006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_42
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -24173 0 1 -50006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_60
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -22067 0 1 -50006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_78
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -19961 0 1 -50006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_96
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -17855 0 1 -50006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_114
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -15749 0 1 -50006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_132
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -13643 0 1 -50006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_150
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -11537 0 1 -50006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_168
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -9431 0 1 -50006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_186
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -7325 0 1 -50006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_204
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -5219 0 1 -50006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_222
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -3113 0 1 -50006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_240
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -1007 0 1 -50006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_258
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 1099 0 1 -50006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_276
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 3205 0 1 -50006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_294
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 5311 0 1 -50006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_312
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 7417 0 1 -50006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_10
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -28385 0 1 -48006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_25
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -26279 0 1 -48006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_43
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -24173 0 1 -48006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_61
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -22067 0 1 -48006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_79
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -19961 0 1 -48006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_97
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -17855 0 1 -48006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_115
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -15749 0 1 -48006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_133
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -13643 0 1 -48006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_151
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -11537 0 1 -48006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_169
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -9431 0 1 -48006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_187
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -7325 0 1 -48006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_205
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -5219 0 1 -48006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_223
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -3113 0 1 -48006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_241
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -1007 0 1 -48006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_259
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 1099 0 1 -48006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_277
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 3205 0 1 -48006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_295
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 5311 0 1 -48006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_313
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 7417 0 1 -48006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_9
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -28385 0 1 -46006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_26
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -26279 0 1 -46006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_44
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -24173 0 1 -46006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_62
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -22067 0 1 -46006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_80
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -19961 0 1 -46006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_98
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -17855 0 1 -46006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_116
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -15749 0 1 -46006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_134
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -13643 0 1 -46006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_152
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -11537 0 1 -46006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_170
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -9431 0 1 -46006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_188
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -7325 0 1 -46006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_206
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -5219 0 1 -46006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_224
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -3113 0 1 -46006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_242
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -1007 0 1 -46006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_260
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 1099 0 1 -46006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_278
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 3205 0 1 -46006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_296
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 5311 0 1 -46006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_314
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 7417 0 1 -46006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_8
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -28385 0 1 -44006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_27
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -26279 0 1 -44006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_45
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -24173 0 1 -44006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_63
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -22067 0 1 -44006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_81
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -19961 0 1 -44006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_99
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -17855 0 1 -44006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_117
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -15749 0 1 -44006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_135
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -13643 0 1 -44006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_153
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -11537 0 1 -44006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_171
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -9431 0 1 -44006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_189
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -7325 0 1 -44006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_207
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -5219 0 1 -44006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_225
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -3113 0 1 -44006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_243
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -1007 0 1 -44006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_261
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 1099 0 1 -44006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_279
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 3205 0 1 -44006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_297
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 5311 0 1 -44006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_315
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 7417 0 1 -44006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_7
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -28385 0 1 -42006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_28
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -26279 0 1 -42006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_46
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -24173 0 1 -42006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_64
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -22067 0 1 -42006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_82
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -19961 0 1 -42006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_100
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -17855 0 1 -42006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_118
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -15749 0 1 -42006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_136
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -13643 0 1 -42006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_154
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -11537 0 1 -42006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_172
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -9431 0 1 -42006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_190
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -7325 0 1 -42006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_208
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -5219 0 1 -42006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_226
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -3113 0 1 -42006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_244
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -1007 0 1 -42006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_262
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 1099 0 1 -42006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_280
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 3205 0 1 -42006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_298
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 5311 0 1 -42006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_316
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 7417 0 1 -42006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_6
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -28385 0 1 -40006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_29
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -26279 0 1 -40006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_5
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -28385 0 1 -38006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_30
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -26279 0 1 -38006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_47
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -24173 0 1 -40006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_48
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -24173 0 1 -38006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_65
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -22067 0 1 -40006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_66
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -22067 0 1 -38006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_83
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -19961 0 1 -40006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_84
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -19961 0 1 -38006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_101
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -17855 0 1 -40006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_102
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -17855 0 1 -38006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_119
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -15749 0 1 -40006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_120
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -15749 0 1 -38006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_137
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -13643 0 1 -40006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_138
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -13643 0 1 -38006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_155
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -11537 0 1 -40006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_156
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -11537 0 1 -38006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_173
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -9431 0 1 -40006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_174
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -9431 0 1 -38006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_191
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -7325 0 1 -40006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_192
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -7325 0 1 -38006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_209
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -5219 0 1 -40006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_210
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -5219 0 1 -38006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_227
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -3113 0 1 -40006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_228
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -3113 0 1 -38006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_245
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -1007 0 1 -40006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_246
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -1007 0 1 -38006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_263
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 1099 0 1 -40006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_264
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 1099 0 1 -38006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_281
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 3205 0 1 -40006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_282
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 3205 0 1 -38006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_299
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 5311 0 1 -40006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_300
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 5311 0 1 -38006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_317
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 7417 0 1 -40006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_318
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 7417 0 1 -38006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_4
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -28385 0 1 -36006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_31
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -26279 0 1 -36006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_49
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -24173 0 1 -36006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_67
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -22067 0 1 -36006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_85
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -19961 0 1 -36006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_103
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -17855 0 1 -36006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_121
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -15749 0 1 -36006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_139
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -13643 0 1 -36006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_157
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -11537 0 1 -36006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_175
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -9431 0 1 -36006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_193
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -7325 0 1 -36006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_211
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -5219 0 1 -36006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_229
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -3113 0 1 -36006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_247
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -1007 0 1 -36006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_265
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 1099 0 1 -36006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_283
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 3205 0 1 -36006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_301
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 5311 0 1 -36006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_319
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 7417 0 1 -36006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_3
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -28385 0 1 -34006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_32
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -26279 0 1 -34006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_50
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -24173 0 1 -34006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_68
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -22067 0 1 -34006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_86
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -19961 0 1 -34006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_104
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -17855 0 1 -34006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_122
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -15749 0 1 -34006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_140
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -13643 0 1 -34006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_158
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -11537 0 1 -34006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_176
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -9431 0 1 -34006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_194
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -7325 0 1 -34006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_212
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -5219 0 1 -34006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_230
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -3113 0 1 -34006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_248
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -1007 0 1 -34006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_266
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 1099 0 1 -34006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_284
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 3205 0 1 -34006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_302
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 5311 0 1 -34006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_320
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 7417 0 1 -34006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_2
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -28385 0 1 -32006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_33
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -26279 0 1 -32006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_51
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -24173 0 1 -32006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_69
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -22067 0 1 -32006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_87
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -19961 0 1 -32006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_105
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -17855 0 1 -32006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_123
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -15749 0 1 -32006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_141
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -13643 0 1 -32006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_159
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -11537 0 1 -32006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_177
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -9431 0 1 -32006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_195
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -7325 0 1 -32006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_213
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -5219 0 1 -32006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_231
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -3113 0 1 -32006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_249
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -1007 0 1 -32006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_267
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 1099 0 1 -32006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_285
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 3205 0 1 -32006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_303
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 5311 0 1 -32006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_321
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 7417 0 1 -32006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_1
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -28385 0 1 -30006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_34
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -26279 0 1 -30006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_52
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -24173 0 1 -30006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_70
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -22067 0 1 -30006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_88
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -19961 0 1 -30006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_106
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -17855 0 1 -30006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_124
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -15749 0 1 -30006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_142
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -13643 0 1 -30006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_160
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -11537 0 1 -30006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_178
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -9431 0 1 -30006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_196
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -7325 0 1 -30006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_214
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -5219 0 1 -30006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_232
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -3113 0 1 -30006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_250
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -1007 0 1 -30006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_268
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 1099 0 1 -30006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_286
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 3205 0 1 -30006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_304
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 5311 0 1 -30006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_322
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 7417 0 1 -30006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_0
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -28385 0 1 -28006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_35
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -26279 0 1 -28006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_53
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -24173 0 1 -28006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_71
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -22067 0 1 -28006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_89
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -19961 0 1 -28006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_107
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -17855 0 1 -28006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_125
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -15749 0 1 -28006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_143
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -13643 0 1 -28006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_161
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -11537 0 1 -28006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_179
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -9431 0 1 -28006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_197
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -7325 0 1 -28006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_215
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -5219 0 1 -28006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_233
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -3113 0 1 -28006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_251
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 -1007 0 1 -28006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_269
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 1099 0 1 -28006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_287
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 3205 0 1 -28006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_305
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 5311 0 1 -28006
 box -850 -800 849 800
 use sky130_fd_pr__cap_mim_m3_1_BZ3RER  sky130_fd_pr__cap_mim_m3_1_BZ3RER_323
-timestamp 1624127230
+timestamp 1624298412
 transform 1 0 7417 0 1 -28006
 box -850 -800 849 800
 use se_fold_casc_wide_swing_ota  se_fold_casc_wide_swing_ota_0 ~/ee272b/ee272b_mixed_signal_mmwave_accelerator/layouts/se_fold_casc_wide_swing_ota
-timestamp 1624132412
+timestamp 1624298412
 transform 1 0 25444 0 1 -31978
 box -15168 -27258 25000 4400
 use sky130_fd_sc_hd__inv_1  sky130_fd_sc_hd__inv_1_0 ~/PDKS/sky130A/libs.ref/sky130_fd_sc_hd/mag
-timestamp 1624127230
+timestamp 1624299007
 transform -1 0 12456 0 1 -57802
 box -38 -48 314 592
 use latched_comparator_folded  latched_comparator_folded_0 ~/ee272b/ee272b_mixed_signal_mmwave_accelerator/layouts/latched_comparator_folded
-timestamp 1624127230
+timestamp 1624300568
 transform 1 0 55478 0 1 -40970
 box -3400 -3014 3047 2278
 << labels >>
-flabel metal3 -25220 -63116 -25188 -63092 1 FreeSans 480 0 0 0 c7m
 flabel metal3 -18928 -63224 -18910 -63206 1 FreeSans 480 0 0 0 c6m
 flabel metal3 -16804 -63244 -16796 -63228 1 FreeSans 480 0 0 0 c5m
 flabel metal3 -14718 -63246 -14704 -63230 1 FreeSans 480 0 0 0 c4m
@@ -3345,4 +3565,5 @@ flabel metal2 52036 -40050 52042 -40042 1 FreeSans 480 0 0 0 ibiasp
 flabel metal2 52026 -42516 52034 -42508 1 FreeSans 480 0 0 0 adc_clk
 flabel metal2 58410 -41968 58422 -41960 1 FreeSans 480 0 0 0 comp_out
 flabel metal2 58400 -42168 58406 -42162 1 FreeSans 480 0 0 0 comp_outm
+flabel metal3 -25158 -63656 -25132 -63634 1 FreeSans 480 0 0 0 c7m
 << end >>

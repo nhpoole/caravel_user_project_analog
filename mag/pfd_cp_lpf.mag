@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1623984492
+timestamp 1624300568
 << nwell >>
 rect -2562 -664 6962 2702
 << pwell >>
@@ -832,55 +832,55 @@ rect -1816 -3676 6216 -3376
 rect 6816 -3676 7000 -3376
 rect -2600 -3860 7000 -3676
 use sky130_fd_pr__nfet_01v8_58Q5WU  sky130_fd_pr__nfet_01v8_58Q5WU_0
-timestamp 1623971255
+timestamp 1624298412
 transform 1 0 2128 0 1 -2084
 box -3890 -188 3890 188
 use sky130_fd_pr__nfet_01v8_58Q5WU  sky130_fd_pr__nfet_01v8_58Q5WU_1
-timestamp 1623971255
+timestamp 1624298412
 transform 1 0 2128 0 1 -2666
 box -3890 -188 3890 188
 use sky130_fd_pr__nfet_01v8_lvt_V7QMZR  sky130_fd_pr__nfet_01v8_lvt_V7QMZR_0
-timestamp 1623971255
+timestamp 1624298412
 transform 1 0 5689 0 1 -1031
 box -554 -310 554 310
-use sky130_fd_pr__nfet_01v8_N6QVV6  sky130_fd_pr__nfet_01v8_N6QVV6_0
-timestamp 1623971255
+use sky130_fd_pr__nfet_01v8_N6QVV6  sky130_fd_pr__nfet_01v8_N6QVV6_0 ~/ee272b/ee272b_mixed_signal_mmwave_accelerator/layouts/dac_8bit
+timestamp 1624298412
 transform 1 0 4180 0 1 -1031
 box -941 -310 941 310
-use sky130_fd_sc_hd__nand2_1  sky130_fd_sc_hd__nand2_1_0 $PDKPATH/libs.ref/sky130_fd_sc_hd/mag
-timestamp 1623971255
-transform -1 0 604 0 1 -924
-box -38 -48 314 592
 use sky130_fd_pr__pfet_01v8_SCHXZ7  sky130_fd_pr__pfet_01v8_SCHXZ7_0
-timestamp 1623971255
+timestamp 1624298412
 transform 1 0 4180 0 1 -244
 box -941 -419 941 419
 use sky130_fd_pr__pfet_01v8_lvt_HJ2CZP  sky130_fd_pr__pfet_01v8_lvt_HJ2CZP_0
-timestamp 1623971255
+timestamp 1624298412
 transform 1 0 5689 0 1 -244
 box -554 -419 554 419
-use sky130_fd_sc_hd__inv_1  sky130_fd_sc_hd__inv_1_0 $PDKPATH/libs.ref/sky130_fd_sc_hd/mag
-timestamp 1623971255
-transform -1 0 880 0 1 -924
-box -38 -48 314 592
-use sky130_fd_sc_hd__inv_1  sky130_fd_sc_hd__inv_1_1
-timestamp 1623971255
-transform 1 0 52 0 1 -924
-box -38 -48 314 592
-use sky130_fd_sc_hd__dfrbp_1  sky130_fd_sc_hd__dfrbp_1_1 $PDKPATH/libs.ref/sky130_fd_sc_hd/mag
-timestamp 1623375787
+use sky130_fd_sc_hd__dfrbp_1  sky130_fd_sc_hd__dfrbp_1_1 ~/PDKS/sky130A/libs.ref/sky130_fd_sc_hd/mag
+timestamp 1624298412
 transform 1 0 -2064 0 1 -924
 box -38 -48 2154 592
 use sky130_fd_sc_hd__dfrbp_1  sky130_fd_sc_hd__dfrbp_1_0
-timestamp 1623375787
+timestamp 1624298412
 transform -1 0 2996 0 1 -924
 box -38 -48 2154 592
+use sky130_fd_sc_hd__inv_1  sky130_fd_sc_hd__inv_1_0 ~/PDKS/sky130A/libs.ref/sky130_fd_sc_hd/mag
+timestamp 1624299007
+transform -1 0 880 0 1 -924
+box -38 -48 314 592
+use sky130_fd_sc_hd__inv_1  sky130_fd_sc_hd__inv_1_1
+timestamp 1624299007
+transform 1 0 52 0 1 -924
+box -38 -48 314 592
+use sky130_fd_sc_hd__nand2_1  sky130_fd_sc_hd__nand2_1_0 ~/PDKS/sky130A/libs.ref/sky130_fd_sc_hd/mag
+timestamp 1624299007
+transform -1 0 604 0 1 -924
+box -38 -48 314 592
 use sky130_fd_pr__pfet_01v8_2Q5KMA  sky130_fd_pr__pfet_01v8_2Q5KMA_1
-timestamp 1623971255
+timestamp 1624298412
 transform 1 0 2173 0 1 896
 box -4355 -200 4355 200
 use sky130_fd_pr__pfet_01v8_2Q5KMA  sky130_fd_pr__pfet_01v8_2Q5KMA_0
-timestamp 1623971255
+timestamp 1624298412
 transform 1 0 2173 0 1 1496
 box -4355 -200 4355 200
 << labels >>

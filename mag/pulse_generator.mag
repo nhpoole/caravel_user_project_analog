@@ -1,6 +1,6 @@
 magic
 tech sky130A
-timestamp 1623986634
+timestamp 1624300568
 << viali >>
 rect 2052 206 2076 230
 rect 144 144 168 168
@@ -171,49 +171,49 @@ rect 1137 -107 1167 -98
 rect 257 -137 1167 -107
 rect -8 -260 -5 -212
 rect 43 -260 46 -212
-use sky130_fd_sc_hd__tapvpwrvgnd_1  sky130_fd_sc_hd__tapvpwrvgnd_1_2 $PDKPATH/libs.ref/sky130_fd_sc_hd/mag
-timestamp 1623971255
-transform 1 0 66 0 1 36
-box -19 -24 65 296
-use sky130_fd_sc_hd__tapvpwrvgnd_1  sky130_fd_sc_hd__tapvpwrvgnd_1_1
-timestamp 1623971255
-transform 1 0 204 0 -1 36
-box -19 -24 65 296
-use sky130_fd_sc_hd__inv_1  sky130_fd_sc_hd__inv_1_0 $PDKPATH/libs.ref/sky130_fd_sc_hd/mag
-timestamp 1623971255
-transform 1 0 112 0 1 36
-box -19 -24 157 296
-use sky130_fd_sc_hd__dfxbp_1  sky130_fd_sc_hd__dfxbp_1_0 $PDKPATH/libs.ref/sky130_fd_sc_hd/mag
-timestamp 1623375787
+use sky130_fd_sc_hd__dfxbp_1  sky130_fd_sc_hd__dfxbp_1_0 ~/PDKS/sky130A/libs.ref/sky130_fd_sc_hd/mag
+timestamp 1624298412
 transform 1 0 250 0 1 36
 box -19 -24 893 296
 use sky130_fd_sc_hd__dfxbp_1  sky130_fd_sc_hd__dfxbp_1_2
-timestamp 1623375787
+timestamp 1624298412
 transform 1 0 250 0 -1 36
 box -19 -24 893 296
+use sky130_fd_sc_hd__tapvpwrvgnd_1  sky130_fd_sc_hd__tapvpwrvgnd_1_1 ~/PDKS/sky130A/libs.ref/sky130_fd_sc_hd/mag
+timestamp 1624298412
+transform 1 0 204 0 -1 36
+box -19 -24 65 296
+use sky130_fd_sc_hd__tapvpwrvgnd_1  sky130_fd_sc_hd__tapvpwrvgnd_1_2
+timestamp 1624298412
+transform 1 0 66 0 1 36
+box -19 -24 65 296
+use sky130_fd_sc_hd__inv_1  sky130_fd_sc_hd__inv_1_0 ~/PDKS/sky130A/libs.ref/sky130_fd_sc_hd/mag
+timestamp 1624299007
+transform 1 0 112 0 1 36
+box -19 -24 157 296
 use sky130_fd_sc_hd__dfxbp_1  sky130_fd_sc_hd__dfxbp_1_1
-timestamp 1623375787
+timestamp 1624298412
 transform 1 0 1124 0 1 36
 box -19 -24 893 296
 use sky130_fd_sc_hd__dfxbp_1  sky130_fd_sc_hd__dfxbp_1_3
-timestamp 1623375787
+timestamp 1624298412
 transform 1 0 1124 0 -1 36
 box -19 -24 893 296
-use sky130_fd_sc_hd__nand2_1  sky130_fd_sc_hd__nand2_1_0 $PDKPATH/libs.ref/sky130_fd_sc_hd/mag
-timestamp 1623971255
-transform -1 0 2136 0 1 36
-box -19 -24 157 296
-use sky130_fd_sc_hd__tapvpwrvgnd_1  sky130_fd_sc_hd__tapvpwrvgnd_1_3
-timestamp 1623971255
-transform 1 0 2274 0 1 36
-box -19 -24 65 296
 use sky130_fd_sc_hd__tapvpwrvgnd_1  sky130_fd_sc_hd__tapvpwrvgnd_1_0
-timestamp 1623971255
+timestamp 1624298412
 transform 1 0 1998 0 -1 36
 box -19 -24 65 296
+use sky130_fd_sc_hd__tapvpwrvgnd_1  sky130_fd_sc_hd__tapvpwrvgnd_1_3
+timestamp 1624298412
+transform 1 0 2274 0 1 36
+box -19 -24 65 296
 use sky130_fd_sc_hd__inv_1  sky130_fd_sc_hd__inv_1_1
-timestamp 1623971255
+timestamp 1624299007
 transform 1 0 2136 0 1 36
+box -19 -24 157 296
+use sky130_fd_sc_hd__nand2_1  sky130_fd_sc_hd__nand2_1_0 ~/PDKS/sky130A/libs.ref/sky130_fd_sc_hd/mag
+timestamp 1624299007
+transform -1 0 2136 0 1 36
 box -19 -24 157 296
 << labels >>
 flabel metal2 10 251 13 253 1 FreeSans 240 0 0 0 VDD

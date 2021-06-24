@@ -10,4 +10,4 @@
 ## Please fill in your project documentation in this README.md file 
 
 
-Mixed-signal accelerator for edge-based sensor fusion and real-time mmWave platform vibratory motion compensation.
+Mixed-signal accelerator for edge-based, real-time mmWave platform vibratory motion compensation via inertial sensor fusion.

@@ -64,15 +64,26 @@ x1 io_in[25] io_in[20] gpio_analog[9] io_in[14] io_in[24] io_out[0] gpio_analog[
 + io_analog[7] io_analog[6] vccd1 vccd2 io_analog[1] io_analog[4] io_analog[5] io_analog[0] gpio_analog[6]
 + gpio_analog[10] gpio_analog[11] gpio_analog[5] gpio_analog[4] gpio_analog[15] io_analog[9] gpio_analog[0]
 + gpio_analog[1] io_analog[2] io_analog[3] io_analog[10] io_analog[8] gpio_analog[12] vssa1 vssd1 chip_top_level
-*XR1 vssd1 io_oeb[2] sky130_fd_pr__res_generic_m1 W=0.6 L=3 mult=1 m=1
-*XR2 vssd1 io_oeb[1] sky130_fd_pr__res_generic_m1 W=0.6 L=3 mult=1 m=1
-*XR3 vssd1 io_oeb[0] sky130_fd_pr__res_generic_m1 W=0.6 L=3 mult=1 m=1
-*XR4 vssa1 io_clamp_high[2] sky130_fd_pr__res_generic_m1 W=0.6 L=3 mult=1 m=1
-*XR5 vssa1 io_clamp_high[1] sky130_fd_pr__res_generic_m1 W=0.6 L=3 mult=1 m=1
-*XR6 vssa1 io_clamp_high[0] sky130_fd_pr__res_generic_m1 W=0.6 L=3 mult=1 m=1
-*XR7 vssa1 io_clamp_low[2] sky130_fd_pr__res_generic_m1 W=0.6 L=3 mult=1 m=1
-*XR8 vssa1 io_clamp_low[1] sky130_fd_pr__res_generic_m1 W=0.6 L=3 mult=1 m=1
-*XR9 vssa1 io_clamp_low[0] sky130_fd_pr__res_generic_m1 W=0.6 L=3 mult=1 m=1
+R7 vssa1 io_clamp_low[2] sky130_fd_pr__res_generic_m1 W=0.6 L=3 mult=1 m=1
+x2 vccd2 vssa1 io_analog[0] esd_cell
+x3 vccd2 vssa1 io_analog[1] esd_cell
+x4 vccd2 vssa1 io_analog[2] esd_cell
+x5 vccd2 vssa1 io_analog[3] esd_cell
+x6 vccd2 vssa1 io_analog[4] esd_cell
+x7 vccd2 vssa1 io_analog[5] esd_cell
+x8 vccd2 vssa1 io_analog[6] esd_cell
+x9 vccd2 vssa1 io_analog[7] esd_cell
+x10 vccd2 vssa1 io_analog[8] esd_cell
+x11 vccd2 vssa1 io_analog[9] esd_cell
+x12 vccd2 vssa1 io_analog[10] esd_cell
+R1 vssd1 io_oeb[2] sky130_fd_pr__res_generic_m1 W=0.6 L=3 mult=1 m=1
+R2 vssd1 io_oeb[1] sky130_fd_pr__res_generic_m1 W=0.6 L=3 mult=1 m=1
+R3 vssd1 io_oeb[0] sky130_fd_pr__res_generic_m1 W=0.6 L=3 mult=1 m=1
+R4 vssa1 io_clamp_high[2] sky130_fd_pr__res_generic_m1 W=0.6 L=3 mult=1 m=1
+R5 vssa1 io_clamp_high[1] sky130_fd_pr__res_generic_m1 W=0.6 L=3 mult=1 m=1
+R6 vssa1 io_clamp_high[0] sky130_fd_pr__res_generic_m1 W=0.6 L=3 mult=1 m=1
+R8 vssa1 io_clamp_low[1] sky130_fd_pr__res_generic_m1 W=0.6 L=3 mult=1 m=1
+R9 vssa1 io_clamp_low[0] sky130_fd_pr__res_generic_m1 W=0.6 L=3 mult=1 m=1
 .ends
 
 * expanding   symbol:
@@ -127,23 +138,40 @@ x1 io_in[25] io_in[20] gpio_analog[9] io_in[14] io_in[24] io_out[0] gpio_analog[
 *.ipin adc_start
 *.ipin adc_bypass_en
 *.ipin sram_select_0
-x1 vfiltp vintm vfiltm vintp vampm vampp vocm_filt vse vccd2 vincm vssa1 vhpf gain_ctrl_0
-+ gain_ctrl_1 sample vocm clk net3 rst_n frequency_comparator_val vbiasp vbiasn sig_frequency_0 sig_frequency_1
+x1 vintp vfiltp vfiltm vintm vampm vampp vocm_filt vse vincm vccd2 vhpf vssa1 gain_ctrl_0
++ gain_ctrl_1 vocm sample clk net3 rst_n frequency_comparator_val vbiasp vbiasn sig_frequency_0 sig_frequency_1
 + sig_frequency_2 vcp sig_frequency_3 sig_frequency_4 sig_frequency_5 sig_frequency_6 vcp_sampled sig_frequency_7
 + vref_frequency vlow_frequency vcomp net4 amplitude_comparator_val vpeak_sampled net5 vpeak sig_amplitude_0
 + sig_amplitude_1 sig_amplitude_2 sig_amplitude_3 sig_amplitude_4 sig_amplitude_5 sig_amplitude_6 sig_amplitude_7
 + vref_amplitude vlow_amplitude analog_top_level_lvs
-*x2 sample vccd1 vssd1 sig_frequency_0 sig_frequency_1 clk sig_frequency_2 rst_n adc_start
-*+ sig_frequency_3 sig_frequency_4 frequency_comparator_val sig_frequency_5 sig_frequency_6 sig_frequency_7 net2
-*+ sar_adc_controller
-*x3 net6 vccd1 vssd1 sig_amplitude_0 sig_amplitude_1 clk sig_amplitude_2 rst_n adc_start
-*+ sig_amplitude_3 sig_amplitude_4 amplitude_comparator_val sig_amplitude_5 sig_amplitude_6 sig_amplitude_7 net1
-*+ sar_adc_controller
-*x4 serial_out vccd1 serial_out_valid vssd1 clk freq_eval_done rst_n load_en debug_en serial_in
-*+ sram_select_0 sram_select_1 net2 net1 sig_frequency_0 sig_frequency_1 sig_frequency_2 sig_frequency_3
-*+ sig_frequency_4 sig_frequency_5 sig_frequency_6 sig_frequency_7 sig_amplitude_0 sig_amplitude_1 sig_amplitude_2
-*+ sig_amplitude_3 sig_amplitude_4 sig_amplitude_5 sig_amplitude_6 sig_amplitude_7 adc_bypass_en
-*+ deconv_kernel_estimator_top_level
+x2 sample vccd1 vssd1 sig_frequency_0 sig_frequency_1 clk sig_frequency_2 rst_n adc_start
++ sig_frequency_3 sig_frequency_4 frequency_comparator_val sig_frequency_5 sig_frequency_6 sig_frequency_7 net2
++ sar_adc_controller
+x3 net6 vccd1 vssd1 sig_amplitude_0 sig_amplitude_1 clk sig_amplitude_2 rst_n adc_start
++ sig_amplitude_3 sig_amplitude_4 amplitude_comparator_val sig_amplitude_5 sig_amplitude_6 sig_amplitude_7 net1
++ sar_adc_controller
+x4 serial_out vccd1 serial_out_valid vssd1 clk freq_eval_done rst_n load_en debug_en serial_in
++ sram_select_0 sram_select_1 net2 net1 sig_frequency_0 sig_frequency_1 sig_frequency_2 sig_frequency_3
++ sig_frequency_4 sig_frequency_5 sig_frequency_6 sig_frequency_7 sig_amplitude_0 sig_amplitude_1 sig_amplitude_2
++ sig_amplitude_3 sig_amplitude_4 sig_amplitude_5 sig_amplitude_6 sig_amplitude_7 adc_bypass_en
++ deconv_kernel_estimator_top_level
+.ends
+
+
+* expanding   symbol:
+*+  /home/users/nhpoole/ee272b/ee272b_mixed_signal_mmwave_accelerator/designs/esd_cell.sym # of pins=3
+* sym_path: /home/users/nhpoole/ee272b/ee272b_mixed_signal_mmwave_accelerator/designs/esd_cell.sym
+* sch_path: /home/users/nhpoole/ee272b/ee272b_mixed_signal_mmwave_accelerator/designs/esd_cell.sch
+.subckt esd_cell  VDD VSS clamp
+*.iopin clamp
+*.ipin VDD
+*.ipin VSS
+XM1 clamp VSS VSS VSS sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=20 m=20 
+XM2 clamp VDD VDD VDD sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=20 m=20 
 .ends
 
 
@@ -218,10 +246,10 @@ x4 VDD VSS vse net9 net18 vpeak net10 peak_detector_rst peak_detector_lvs
 x7 VDD sample VSS net19 vcp vcp_sampled net12 sample_and_hold_lvs
 x8 VDD sample VSS net20 vpeak vpeak_sampled net13 sample_and_hold_lvs
 x9 vcp VDD VSS vcomp net11 low_freq_pll_block_lvs
-x10 adc_vcaparrayA VDD sample net14 net21 VSS adc_compA adc_clk net15 vcp_sampled q0A q1A q2A q3A
-+ q4A q5A q6A q7A vrefA vlowA dac_8bit_lvs
-x11 adc_vcaparrayB VDD sample net17 net22 VSS adc_compB adc_clk net16 vpeak_sampled q0B q1B q2B q3B
-+ q4B q5B q6B q7B vrefB vlowB dac_8bit_lvs
+x10 adc_vcaparrayA VDD sample net14 net21 VSS adc_compA adc_clk net15 vcp_sampled q0A q1A q2A q7A
++ q3A q4A q5A q6A vrefA vlowA dac_8bit_lvs
+x11 adc_vcaparrayB VDD sample net17 net22 VSS adc_compB adc_clk net16 vpeak_sampled q0B q1B q2B q7B
++ q3B q4B q5B q6B vrefB vlowB dac_8bit_lvs
 x12 VDD VSS sample peak_detector_rst adc_clk pulse_generator_lvs
 .ends
 
@@ -334,8 +362,8 @@ XC9 vom1 vip1 sky130_fd_pr__cap_mim_m3_1 W=8 L=8 MF=4 m=4
 XC10 vip1 vhpf sky130_fd_pr__cap_mim_m3_1 W=8 L=8 MF=4 m=4
 XC11 vim1 vincm sky130_fd_pr__cap_mim_m3_1 W=8 L=8 MF=4 m=4
 XC12 vop1 vim1 sky130_fd_pr__cap_mim_m3_1 W=8 L=8 MF=4 m=4
-XC13 VSS VSS sky130_fd_pr__cap_mim_m3_1 W=12 L=2 MF=24 m=24
-XC14 VSS VSS sky130_fd_pr__cap_mim_m3_1 W=8 L=2 MF=24 m=24
+XC13 VSS VSS sky130_fd_pr__cap_mim_m3_1 W=12 L=2 MF=20 m=20
+XC14 VSS VSS sky130_fd_pr__cap_mim_m3_1 W=8 L=2 MF=22 m=22
 XC15 VSS VSS sky130_fd_pr__cap_mim_m3_1 W=2 L=8 MF=24 m=24
 x1 vom1 vop1 vip1 vim1 vocm VDD VSS ibiasn1 diff_fold_casc_ota_lvs
 x2 vom vop vip2 vim2 vocm VDD VSS ibiasn2 diff_fold_casc_ota_lvs

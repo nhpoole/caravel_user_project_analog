@@ -180,59 +180,22 @@ C {devices/lab_pin.sym} 3840 -270 0 0 {name=l38 sig_type=std_logic lab=io_in[3]}
 C {devices/lab_pin.sym} 4220 -410 0 1 {name=l39 sig_type=std_logic lab=io_out[2]}
 C {devices/lab_pin.sym} 4220 -390 0 1 {name=l41 sig_type=std_logic lab=io_out[1]}
 C {devices/lab_pin.sym} 4220 -450 0 1 {name=l42 sig_type=std_logic lab=io_out[0]}
-C {sky130_fd_pr/res_generic_m1.sym} 3850 220 0 0 {name=R1
-W=0.6
-L=3
-model=res_generic_m1
-spiceprefix=X
-mult=1}
 C {devices/lab_pin.sym} 3850 280 0 0 {name=l43 sig_type=std_logic lab=vssd1}
 C {devices/lab_pin.sym} 3850 160 0 0 {name=l44 sig_type=std_logic lab=io_oeb[2]}
 C {devices/lab_pin.sym} 4020 280 0 0 {name=l45 sig_type=std_logic lab=vssd1}
 C {devices/lab_pin.sym} 4020 160 0 0 {name=l46 sig_type=std_logic lab=io_oeb[1]}
 C {devices/lab_pin.sym} 4200 280 0 0 {name=l47 sig_type=std_logic lab=vssd1}
 C {devices/lab_pin.sym} 4200 160 0 0 {name=l48 sig_type=std_logic lab=io_oeb[0]}
-C {sky130_fd_pr/res_generic_m1.sym} 4020 220 0 0 {name=R2
-W=0.6
-L=3
-model=res_generic_m1
-spiceprefix=X
-mult=1}
-C {sky130_fd_pr/res_generic_m1.sym} 4200 220 0 0 {name=R3
-W=0.6
-L=3
-model=res_generic_m1
-spiceprefix=X
-mult=1}
-C {sky130_fd_pr/res_generic_m1.sym} 3850 400 0 0 {name=R4
-W=0.6
-L=3
-model=res_generic_m1
-spiceprefix=X
-mult=1}
 C {devices/lab_pin.sym} 3850 460 0 0 {name=l49 sig_type=std_logic lab=vssa1}
 C {devices/lab_pin.sym} 3850 340 0 0 {name=l50 sig_type=std_logic lab=io_clamp_high[2]}
 C {devices/lab_pin.sym} 4020 460 0 0 {name=l51 sig_type=std_logic lab=vssa1}
 C {devices/lab_pin.sym} 4020 340 0 0 {name=l52 sig_type=std_logic lab=io_clamp_high[1]}
 C {devices/lab_pin.sym} 4200 460 0 0 {name=l53 sig_type=std_logic lab=vssa1}
 C {devices/lab_pin.sym} 4200 340 0 0 {name=l54 sig_type=std_logic lab=io_clamp_high[0]}
-C {sky130_fd_pr/res_generic_m1.sym} 4020 400 0 0 {name=R5
-W=0.6
-L=3
-model=res_generic_m1
-spiceprefix=X
-mult=1}
-C {sky130_fd_pr/res_generic_m1.sym} 4200 400 0 0 {name=R6
-W=0.6
-L=3
-model=res_generic_m1
-spiceprefix=X
-mult=1}
 C {sky130_fd_pr/res_generic_m1.sym} 3850 580 0 0 {name=R7
 W=0.6
 L=3
 model=res_generic_m1
-spiceprefix=X
 mult=1}
 C {devices/lab_pin.sym} 3850 640 0 0 {name=l55 sig_type=std_logic lab=vssa1}
 C {devices/lab_pin.sym} 3850 520 0 0 {name=l56 sig_type=std_logic lab=io_clamp_low[2]}
@@ -240,18 +203,6 @@ C {devices/lab_pin.sym} 4020 640 0 0 {name=l57 sig_type=std_logic lab=vssa1}
 C {devices/lab_pin.sym} 4020 520 0 0 {name=l58 sig_type=std_logic lab=io_clamp_low[1]}
 C {devices/lab_pin.sym} 4200 640 0 0 {name=l59 sig_type=std_logic lab=vssa1}
 C {devices/lab_pin.sym} 4200 520 0 0 {name=l60 sig_type=std_logic lab=io_clamp_low[0]}
-C {sky130_fd_pr/res_generic_m1.sym} 4020 580 0 0 {name=R8
-W=0.6
-L=3
-model=res_generic_m1
-spiceprefix=X
-mult=1}
-C {sky130_fd_pr/res_generic_m1.sym} 4200 580 0 0 {name=R9
-W=0.6
-L=3
-model=res_generic_m1
-spiceprefix=X
-mult=1}
 C {/home/users/nhpoole/ee272b/ee272b_mixed_signal_mmwave_accelerator/designs/esd_cell.sym} 4690 -360 0 0 {name=x2}
 C {/home/users/nhpoole/ee272b/ee272b_mixed_signal_mmwave_accelerator/designs/esd_cell.sym} 4690 -140 0 0 {name=x3}
 C {/home/users/nhpoole/ee272b/ee272b_mixed_signal_mmwave_accelerator/designs/esd_cell.sym} 4690 80 0 0 {name=x4}
@@ -277,3 +228,43 @@ C {devices/lab_wire.sym} 4790 220 0 1 {name=l70 sig_type=std_logic lab=io_analog
 C {devices/lab_wire.sym} 4530 440 0 1 {name=l71 sig_type=std_logic lab=io_analog[4]}
 C {devices/lab_wire.sym} 4790 440 0 1 {name=l72 sig_type=std_logic lab=io_analog[9]}
 C {devices/lab_pin.sym} 3840 -190 0 0 {name=l73 sig_type=std_logic lab=vccd2}
+C {sky130_fd_pr/res_generic_m1.sym} 3850 220 0 0 {name=R1
+W=0.6
+L=3
+model=res_generic_m1
+mult=1}
+C {sky130_fd_pr/res_generic_m1.sym} 4020 220 0 0 {name=R2
+W=0.6
+L=3
+model=res_generic_m1
+mult=1}
+C {sky130_fd_pr/res_generic_m1.sym} 4200 220 0 0 {name=R3
+W=0.6
+L=3
+model=res_generic_m1
+mult=1}
+C {sky130_fd_pr/res_generic_m1.sym} 3850 400 0 0 {name=R4
+W=0.6
+L=3
+model=res_generic_m1
+mult=1}
+C {sky130_fd_pr/res_generic_m1.sym} 4020 400 0 0 {name=R5
+W=0.6
+L=3
+model=res_generic_m1
+mult=1}
+C {sky130_fd_pr/res_generic_m1.sym} 4200 400 0 0 {name=R6
+W=0.6
+L=3
+model=res_generic_m1
+mult=1}
+C {sky130_fd_pr/res_generic_m1.sym} 4020 580 0 0 {name=R8
+W=0.6
+L=3
+model=res_generic_m1
+mult=1}
+C {sky130_fd_pr/res_generic_m1.sym} 4200 580 0 0 {name=R9
+W=0.6
+L=3
+model=res_generic_m1
+mult=1}

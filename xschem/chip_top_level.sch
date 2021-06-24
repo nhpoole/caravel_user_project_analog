@@ -10,14 +10,14 @@ N 1400 -900 1440 -900 { lab=vlow_frequency}
 N 1400 -920 1440 -920 { lab=vref_frequency}
 N 1400 -1100 1440 -1100 { lab=vbiasn}
 N 1400 -1120 1440 -1120 { lab=vbiasp}
-N 1400 -1180 1440 -1180 { lab=vocm}
-N 1400 -1260 1440 -1260 { lab=vhpf}
-N 1400 -1300 1440 -1300 { lab=vincm}
+N 1400 -1200 1440 -1200 { lab=vocm}
+N 1400 -1280 1440 -1280 { lab=vhpf}
+N 1400 -1320 1440 -1320 { lab=vincm}
 N 1400 -1340 1440 -1340 { lab=vocm_filt}
 N 1740 -1340 1780 -1340 { lab=vfiltp}
-N 1740 -1320 1780 -1320 { lab=vintm}
+N 1740 -1320 1780 -1320 { lab=vfiltp}
 N 1740 -1300 1780 -1300 { lab=vfiltm}
-N 1740 -1280 1780 -1280 { lab=vintp}
+N 1740 -1280 1780 -1280 { lab=vintm}
 N 1740 -1260 1780 -1260 { lab=vampm}
 N 1740 -1240 1780 -1240 { lab=vampp}
 N 1740 -1220 1780 -1220 { lab=vse}
@@ -28,12 +28,11 @@ N 1740 -1060 1780 -1060 { lab=vpeak_sampled}
 N 1740 -1120 1780 -1120 { lab=vcomp}
 N 1400 -1240 1440 -1240 { lab=gain_ctrl_0}
 N 1400 -1220 1440 -1220 { lab=gain_ctrl_1}
-N 1400 -1200 1440 -1200 { lab=sample}
+N 1400 -1180 1440 -1180 { lab=sample}
 N 1400 -1160 1440 -1160 { lab=clk}
-N 1400 -1320 1440 -1320 { lab=vccd2}
-N 1400 -1280 1440 -1280 { lab=vssa1}
-N 1200 -1180 1200 -1100 { lab=sample}
-N 1200 -1200 1400 -1200 { lab=sample}
+N 1400 -1300 1440 -1300 { lab=vccd2}
+N 1400 -1260 1440 -1260 { lab=vssa1}
+N 1200 -1180 1400 -1180 { lab=sample}
 N 600 -1080 1440 -1080 { lab=sig_frequency_0}
 N 1130 -740 1130 -510 { lab=sig_amplitude_7}
 N 1140 -760 1140 -520 { lab=sig_amplitude_6}
@@ -135,12 +134,13 @@ N 1740 -650 1780 -650 { lab=serial_out}
 N 1740 -630 1780 -630 { lab=serial_out_valid}
 N 1740 -610 1780 -610 { lab=freq_eval_done}
 N 1400 -110 1440 -110 { lab=adc_bypass_en}
-N 1200 -1200 1200 -1180 { lab=sample}
+N 1200 -1180 1200 -1160 { lab=sample}
 N 1400 -1140 1440 -1140 { lab=rst_n}
 N 1740 -1180 2010 -1180 { lab=frequency_comparator_val}
 N 2010 -1360 2010 -1180 { lab=frequency_comparator_val}
 N 1740 -1080 2010 -1080 { lab=amplitude_comparator_val}
 N 2010 -1080 2010 -1060 { lab=amplitude_comparator_val}
+N 1200 -1160 1200 -1100 { lab=sample}
 C {/home/users/nhpoole/ee272b/ee272b_mixed_signal_mmwave_accelerator/designs/analog_top_level_lvs.sym} 1590 -1020 0 0 {name=x1}
 C {devices/lab_pin.sym} 1400 -700 0 0 {name=l13 sig_type=std_logic lab=vlow_amplitude}
 C {devices/lab_pin.sym} 1400 -720 0 0 {name=l14 sig_type=std_logic lab=vref_amplitude}
@@ -148,14 +148,14 @@ C {devices/lab_pin.sym} 1400 -900 0 0 {name=l15 sig_type=std_logic lab=vlow_freq
 C {devices/lab_pin.sym} 1400 -920 0 0 {name=l16 sig_type=std_logic lab=vref_frequency}
 C {devices/lab_pin.sym} 1400 -1100 0 0 {name=l17 sig_type=std_logic lab=vbiasn}
 C {devices/lab_pin.sym} 1400 -1120 0 0 {name=l18 sig_type=std_logic lab=vbiasp}
-C {devices/lab_pin.sym} 1400 -1180 0 0 {name=l19 sig_type=std_logic lab=vocm}
-C {devices/lab_pin.sym} 1400 -1260 0 0 {name=l20 sig_type=std_logic lab=vhpf}
-C {devices/lab_pin.sym} 1400 -1300 0 0 {name=l21 sig_type=std_logic lab=vincm}
+C {devices/lab_pin.sym} 1400 -1200 0 0 {name=l19 sig_type=std_logic lab=vocm}
+C {devices/lab_pin.sym} 1400 -1280 0 0 {name=l20 sig_type=std_logic lab=vhpf}
+C {devices/lab_pin.sym} 1400 -1320 0 0 {name=l21 sig_type=std_logic lab=vincm}
 C {devices/lab_pin.sym} 1400 -1340 0 0 {name=l22 sig_type=std_logic lab=vocm_filt}
-C {devices/lab_pin.sym} 1780 -1340 0 1 {name=l23 sig_type=std_logic lab=vfiltp}
-C {devices/lab_pin.sym} 1780 -1320 0 1 {name=l24 sig_type=std_logic lab=vintm}
+C {devices/lab_pin.sym} 1780 -1340 0 1 {name=l23 sig_type=std_logic lab=vintp}
+C {devices/lab_pin.sym} 1780 -1320 0 1 {name=l24 sig_type=std_logic lab=vfiltp}
 C {devices/lab_pin.sym} 1780 -1300 0 1 {name=l25 sig_type=std_logic lab=vfiltm}
-C {devices/lab_pin.sym} 1780 -1280 0 1 {name=l26 sig_type=std_logic lab=vintp}
+C {devices/lab_pin.sym} 1780 -1280 0 1 {name=l26 sig_type=std_logic lab=vintm}
 C {devices/lab_pin.sym} 1780 -1260 0 1 {name=l27 sig_type=std_logic lab=vampm}
 C {devices/lab_pin.sym} 1780 -1240 0 1 {name=l28 sig_type=std_logic lab=vampp}
 C {devices/lab_pin.sym} 1780 -1220 0 1 {name=l31 sig_type=std_logic lab=vse}
@@ -167,8 +167,8 @@ C {devices/lab_pin.sym} 1780 -1120 0 1 {name=l36 sig_type=std_logic lab=vcomp}
 C {devices/lab_pin.sym} 1400 -1240 0 0 {name=l40 sig_type=std_logic lab=gain_ctrl_0}
 C {devices/lab_pin.sym} 1400 -1220 0 0 {name=l41 sig_type=std_logic lab=gain_ctrl_1}
 C {devices/lab_pin.sym} 1400 -1160 0 0 {name=l43 sig_type=std_logic lab=clk}
-C {devices/lab_pin.sym} 1400 -1320 0 0 {name=l7 sig_type=std_logic lab=vccd2}
-C {devices/lab_pin.sym} 1400 -1280 0 0 {name=l8 sig_type=std_logic lab=vssa1}
+C {devices/lab_pin.sym} 1400 -1300 0 0 {name=l7 sig_type=std_logic lab=vccd2}
+C {devices/lab_pin.sym} 1400 -1260 0 0 {name=l8 sig_type=std_logic lab=vssa1}
 C {/home/users/nhpoole/ee272b/ee272b_mixed_signal_mmwave_accelerator/designs/sar_adc_controller.sym} 450 -1010 0 0 {name=x2}
 C {/home/users/nhpoole/ee272b/ee272b_mixed_signal_mmwave_accelerator/designs/sar_adc_controller.sym} 960 -810 0 0 {name=x3}
 C {/home/users/nhpoole/ee272b/ee272b_mixed_signal_mmwave_accelerator/designs/deconv_kernel_estimator_top_level.sym} 1590 -380 0 0 {name=x4}
@@ -180,7 +180,7 @@ C {devices/lab_wire.sym} 870 -1000 0 0 {name=l5 sig_type=std_logic lab=sig_frequ
 C {devices/lab_wire.sym} 870 -980 0 0 {name=l6 sig_type=std_logic lab=sig_frequency_5}
 C {devices/lab_wire.sym} 870 -960 0 0 {name=l9 sig_type=std_logic lab=sig_frequency_6}
 C {devices/lab_wire.sym} 870 -940 0 0 {name=l10 sig_type=std_logic lab=sig_frequency_7}
-C {devices/lab_wire.sym} 1260 -1200 0 0 {name=l42 sig_type=std_logic lab=sample}
+C {devices/lab_wire.sym} 1260 -1180 0 0 {name=l42 sig_type=std_logic lab=sample}
 C {devices/lab_wire.sym} 1360 -270 0 0 {name=l11 sig_type=std_logic lab=sig_amplitude_0}
 C {devices/lab_wire.sym} 1360 -250 0 0 {name=l12 sig_type=std_logic lab=sig_amplitude_1}
 C {devices/lab_wire.sym} 1360 -230 0 0 {name=l44 sig_type=std_logic lab=sig_amplitude_2}

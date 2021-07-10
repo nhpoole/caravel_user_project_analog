@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1625896512
+timestamp 1625939636
 << error_s >>
 rect 29134 530602 29220 530630
 rect 29350 530566 29378 530650
@@ -2934,16 +2934,19 @@ rect 548618 194459 548619 195129
 rect 549289 194459 584800 195129
 rect 548618 194458 584800 194459
 rect 548619 194453 549289 194458
+rect 552054 192312 584800 194458
+rect 577294 185834 579988 192312
+rect 582340 191430 584800 192312
+rect 582340 185834 584800 186230
 rect 548673 184250 549343 184255
-rect 577294 184250 577966 194458
-rect 582340 191430 584800 194458
-rect 582340 184250 584800 186230
+rect 552054 184250 584800 185834
 rect 548672 184249 584800 184250
 rect 548672 183579 548673 184249
 rect 549343 183579 584800 184249
 rect 548672 183578 584800 183579
 rect 548673 183573 549343 183578
-rect 582340 181430 584800 183578
+rect 552054 182220 584800 183578
+rect 582340 181430 584800 182220
 rect -800 172888 1660 177688
 rect 27482 168746 27610 168752
 rect 27482 168546 27610 168618
@@ -3400,13 +3403,13 @@ rect 23489 34786 23608 34898
 rect 23720 34786 23855 34898
 rect 23489 34720 23855 34786
 rect 28810 18021 28966 530885
-rect 78094 500366 78766 532368
+rect 78094 517450 78766 532368
 rect 80746 531852 81546 548210
 rect 88086 532276 89718 554700
 rect 535732 532446 541064 639830
 rect 575937 639829 580659 639830
-rect 80814 496902 81486 531852
-rect 88974 504554 89646 532276
+rect 80814 517450 81486 531852
+rect 88974 517450 89646 532276
 rect 537882 510238 539514 532446
 rect 543418 531538 543622 531539
 rect 543418 531336 543419 531538
@@ -3498,18 +3501,18 @@ use sky130_fd_pr__res_generic_m1_DYSWBR  sky130_fd_pr__res_generic_m1_DYSWBR_2
 timestamp 1624477805
 transform 0 1 579599 -1 0 14602
 box -60 -357 60 357
-use sar_adc_controller_8bit  sar_adc_controller_8bit_0
-timestamp 1624477805
-transform -1 0 90618 0 -1 570806
-box 0 0 16100 20128
-use sar_adc_controller_8bit  sar_adc_controller_8bit_1
-timestamp 1624477805
-transform -1 0 90602 0 -1 622156
-box 0 0 16100 20128
 use analog_top_level  analog_top_level_0 ~/ee272b/ee272b_mixed_signal_mmwave_accelerator/layouts/analog_top_level
 timestamp 1624477805
 transform -1 0 479200 0 1 739592
 box 157324 -188462 385680 -59028
+use sar_adc_controller_8bit  sar_adc_controller_8bit_1
+timestamp 1624477805
+transform -1 0 90602 0 -1 622156
+box 0 0 16100 20128
+use sar_adc_controller_8bit  sar_adc_controller_8bit_0
+timestamp 1624477805
+transform -1 0 90618 0 -1 570806
+box 0 0 16100 20128
 use esd_cell  esd_cell_1 ~/ee272b/ee272b_mixed_signal_mmwave_accelerator/layouts/esd_cell
 timestamp 1624477805
 transform 1 0 5996 0 1 682782
@@ -3550,33 +3553,33 @@ use sky130_fd_pr__res_generic_m1_DYSWBR  sky130_fd_pr__res_generic_m1_DYSWBR_6
 timestamp 1624477805
 transform -1 0 226152 0 -1 701565
 box -60 -357 60 357
-use esd_cell  esd_cell_7
-timestamp 1624477805
-transform 1 0 408838 0 1 696756
-box -2400 -3178 2400 3178
-use esd_cell  esd_cell_6
-timestamp 1624477805
-transform 1 0 318206 0 1 694824
-box -2400 -3178 2400 3178
-use sky130_fd_pr__res_generic_m1_DYSWBR  sky130_fd_pr__res_generic_m1_DYSWBR_8
-timestamp 1624477805
-transform -1 0 327900 0 -1 701565
-box -60 -357 60 357
 use sky130_fd_pr__res_generic_m1_DYSWBR  sky130_fd_pr__res_generic_m1_DYSWBR_7
 timestamp 1624477805
 transform -1 0 325390 0 -1 701565
 box -60 -357 60 357
-use esd_cell  esd_cell_8
+use sky130_fd_pr__res_generic_m1_DYSWBR  sky130_fd_pr__res_generic_m1_DYSWBR_8
 timestamp 1624477805
-transform 1 0 463684 0 1 693044
+transform -1 0 327900 0 -1 701565
+box -60 -357 60 357
+use esd_cell  esd_cell_6
+timestamp 1624477805
+transform 1 0 318206 0 1 694824
+box -2400 -3178 2400 3178
+use esd_cell  esd_cell_7
+timestamp 1624477805
+transform 1 0 408838 0 1 696756
+box -2400 -3178 2400 3178
+use esd_cell  esd_cell_9
+timestamp 1624477805
+transform 1 0 566444 0 1 692528
 box -2400 -3178 2400 3178
 use esd_cell  esd_cell_10
 timestamp 1624477805
 transform 1 0 577108 0 1 680432
 box -2400 -3178 2400 3178
-use esd_cell  esd_cell_9
+use esd_cell  esd_cell_8
 timestamp 1624477805
-transform 1 0 566444 0 1 692528
+transform 1 0 463684 0 1 693044
 box -2400 -3178 2400 3178
 use deconv_kernel_estimator_top_level  deconv_kernel_estimator_top_level_0
 timestamp 1625896512
